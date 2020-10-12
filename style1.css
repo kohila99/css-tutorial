@@ -107,7 +107,7 @@ th{
     background-color: deeppink;
     width: 40%;
     height: 50%;
-    position: absolute;;
+    position:relative;
     overflow:scroll;
 }
 #padding-demo ul{
@@ -119,11 +119,14 @@ th{
 #padding-demo h1{
     float: right;
     margin:-10px;
-    margin-top: 600px;
+    overflow: hidden;
+    margin-top:600px;
 }
-#combination >p{
+#combination + p{
+    background-color: fuchsia;
     font-size: 30px;
 }
+
 
 
 

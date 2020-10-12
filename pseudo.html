@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pseudo class Demo</title>
+</head>
+<body>
+    <style>
+        p{
+            color: blue;
+        }
+        div p:first-child
+        {
+            color: blueviolet;
+        }
+        div p:last-child
+        {
+            color: red;
+        }
+        div p:nth-child(2)
+        {
+            color: orange;
+        }
+        p::first-letter
+        {
+            font-size: 30px;
+        }
+        p::first-line
+        {
+            font-style: italic;
+        }
+        
+    </style>
+    <h3>pseudo classes</h3>
+    <li>a:link</li>
+    <li>a:visite</li>
+    <li>a: active</li>
+    <li>a:hover</li> 
+    
+    <br>
+<div>
+    <p>this is a first child paragraph</p>
+    <p>this is a second child paragraph</p>
+    <p>this is a third child paragraph</p>
+</div>
+<p>This is a paragraph tag.It is ademonstration of pseudo element and pseudo classes</p>
+
+</body>
+    
+
+    
+    
+   
+    
+
+</html>

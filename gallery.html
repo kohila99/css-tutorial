@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <style>
+        div{
+            border: 1px inset rgb(200,123,170);
+        }
+        div img{
+            width: 300px;
+            height: 300px;
+            border: 1px dotted rgb(76,100,235);
+            opacity: 1;
+        }
+        div h4{
+            display: inline-block;
+            margin-left: 200px;
+        }
+        .img-container {
+            width: 30%;
+            display: inline-block
+        }
+    </style>
+    <div id="gallery">
+        <div class="img-container">
+            <img src="myimage1.jpg" alt="image1">
+            <h4>Gallery 1</h4>
+        </div>
+        <div class="img-container">
+            <img src="myimage2.jpg" alt="image2">
+            <h4>Gallery 2</h4>
+        </div>
+        <div class="img-conatainer">
+            <img src="myimage3.jpg" alt="image3"><br>
+            <h4>Gallery 3</h4>
+        </div>
+    </div>
+</body>
+</html>
